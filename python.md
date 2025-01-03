@@ -123,7 +123,20 @@ django
 
 # macOS
 
-для установки Python на macOS используйте [Homebrew](https://brew.sh)
+Мы будем использовать homebrew для установки Python.
+
+Сначала установим homebrew:
+
+```sh
+# Download and install Homebrew
+curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+```
+
+Теперь установим сам python
+
+```sh
+brew install python
+```
 
 # Windows
 
