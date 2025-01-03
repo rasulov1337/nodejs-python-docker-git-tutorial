@@ -93,6 +93,7 @@ Node version manager, чаще называемый nvm, является сам
 ### 2. Установка NVM
 
 Установите NVM
+
 ![Install Windows](assets/win-node-install.gif)
 
 ### 3. Установка Node
