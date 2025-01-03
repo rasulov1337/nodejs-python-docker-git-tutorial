@@ -86,7 +86,7 @@ Node version manager, чаще называемый nvm, является сам
 
 ### 1. Загрузка установщика
 
-В первую очередь нужно перейти на [страницу релизов nvm-windows](https://github.com/coreybutler/nvm-windows/releases). На ней нужно скачать nvm-setup.exe
+В первую очередь нужно перейти на [страницу релизов nvm-windows](win-nvm-releases). На ней нужно скачать nvm-setup.exe
 
 ![Страница релизов nvm](win-nvm-github-page.png)
 
@@ -201,3 +201,4 @@ node hi.js
 
 [about-gitignore]: https://tyapk.ru/blog/post/gitignore
 [gitignore-file]: https://github.com/iu5git/JavaScript/blob/main/tutorials/lab3/assets/.gitignore
+[win-nvm-releases]: https://github.com/coreybutler/nvm-windows/releases
