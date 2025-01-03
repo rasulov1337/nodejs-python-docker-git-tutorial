@@ -1,5 +1,10 @@
 # Установка NodeJS, Python, Docker & Git
 
+-   Установка [Python](#установка-python)
+-   Установка [Node.js](#установка-nodejs)
+-   Установка [Git](#установка-git)
+-   Установка [Docker](#установка-docker)
+
 # Установка Python
 
 # Linux
