@@ -1,6 +1,6 @@
 # Linux
 
-# 1. Установка Python
+## 1. Установка Python
 
 Python является частью многих дистрибутивов Linux, поэтому он предустановлен.
 Сначала посмотрите какая версия Python установлена в вашей системе. Для этого выполните команду:
@@ -18,7 +18,7 @@ sudo apt update && sudo apt install python3.12
 
 Теперь при вводе команды `python3` у вас будет запускаться Python 3.12.
 
-# 2. Установка пакетов
+## 2. Установка пакетов
 
 Для управления программными пакетами Python используется инструмент pip, предназначенный для установки и управления пакетами программирования.
 
@@ -38,7 +38,7 @@ pip3 install package_name
 sudo apt install python-is-python3
 ```
 
-# 3. [Виртуальное окружение](https://blog.sedicomm.com/2021/06/29/chto-takoe-venv-i-virtualenv-v-python-i-kak-ih-ispolzovat/#1)
+## 3. [Виртуальное окружение](https://blog.sedicomm.com/2021/06/29/chto-takoe-venv-i-virtualenv-v-python-i-kak-ih-ispolzovat/#1)
 
 Чтобы создать виртуальную среду, мы используем модуль venv. Это удобный инструмент для управления зависимостями и изоляции проектов, который выстроен в Python, начиная с версии Python 3.3+. Поэтому модуль venv нельзя использовать для изоляции программ Python 2.
 Установка venv:
@@ -125,12 +125,16 @@ django
 
 Мы будем использовать homebrew для установки Python.
 
+## Устанока homebrew
+
 Сначала установим homebrew:
 
 ```sh
 # Download and install Homebrew
 curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
 ```
+
+## Установка Python
 
 Теперь установим сам python
 
@@ -146,14 +150,15 @@ brew install python
 
 ![Сайт Python](win-py-site.png)
 
-## Установка Python
+## 1. Установка Python
 
 Запустите установщик и нажмите `Install Now` после чего Python установится на ваш компьютер.
 ![Окно установки Python на Windows](win-py-install.png)
 
-Важно: после установки на некоторых системах python будет доступен не по имени `python`, а как `py`.
+> [!IMPORTANT]  
+> Важно: после установки на некоторых системах python будет доступен не по имени `python`, а как `py`. Например, чтобы запустить скрипт, надо ввести не `python main.py`, а `py main.py`
 
-# 2. Установка пакетов
+## 2. Установка пакетов
 
 Для управления программными пакетами Python используется инструмент `pip`, предназначенный для установки и управления пакетами программирования.
 
