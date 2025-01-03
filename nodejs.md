@@ -25,7 +25,7 @@
 1. Для начала нужно обновить дистрибутив.
 
 Используйте команду: `sudo apt update && sudo apt upgrade`.
-![Обновление системы](image-3.png)
+![Обновление системы](ubuntu-apt-update.png)
 
 2. Установка nvm.
 
@@ -38,7 +38,7 @@
 `wget -q -O - https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
 
 После установки у вас должно появиться следующее сообщение:
-![Установка nvm](image-1.png)
+![Установка nvm](ubuntu-nvm-wget.png)
 **После этого обязательно перезапустите терминал!** Это необходимо сделать, чтобы команда nvm была доступна.
 
 3. Установка NodeJS
@@ -50,7 +50,7 @@
 
 4. Давайте проверим версию node и npm:
 
-![NodeJS установился успешно](image-2.png)
+![NodeJS установился успешно](ubuntu-node-version.png)
 Как видим, NodeJS и npm успешно установлены.
 
 #### Windows
@@ -64,7 +64,7 @@ Node version manager, чаще называемый nvm, является сам
 1. Загрузка установщика
    В первую очередь нужно перейти на [страницу релизов nvm-windows](https://github.com/coreybutler/nvm-windows/releases). На ней нужно скачать nvm-setup.exe
 
-![alt text](image-4.png)
+![Страница релизов nvm](win-nvm-github-page.png)
 
 2. Установка NVM
 
@@ -81,7 +81,7 @@ Node version manager, чаще называемый nvm, является сам
 -   `npm --version` для проверки работоспособности npm
 -   `node --version` для проверки работоспособности node
 
-![alt text](image-5.png)
+![Powershell установка nvm](win-pwsh-nvm.png)
 
 #### macOS
 

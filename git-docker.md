@@ -13,12 +13,12 @@ sudo apt update && sudo apt install git
 ### Загрузка установщика
 
 Скачайте с [сайта](https://git-scm.com/downloads/win) установщик git
-![alt text](image-11.png)
+![git windows site](win-git-site.png)
 
 ### Установка
 
 Установите git. В процессе установки можно оставить все значения по умолчанию.
-![alt text](image-12.png)
+![Git windows installer](win-git-installer.png)
 
 После этого `git` будет успешно установлен.
 
@@ -76,18 +76,18 @@ sudo apt install ./docker-desktop-amd64.deb -y
 
 Скачайте с [официального сайта](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module) Docker Desktop
 
-![alt text](image-14.png)
+![Docker official site](win-docker-site.png)
 
 Запустите установщик.
 Нажмите `OK`.
-![alt text](image-15.png)
+![windows docker installer](win-docker-installer.png)
 
 После установки запустите `Docker`
-![alt text](image-16.png)
+![windows docker installer finish](win-docker-installer-end.png)
 Выберите пункт `Use recommended settigns`.
 
 Пропустите шаги, если вы не хотите входить в аккаунт Docker Hub
-![alt text](image-17.png)
+![windows docker skip dialogs](win-docker-skip.png)
 
 Установка Docker и Docker Desktop на этом завершена.
 

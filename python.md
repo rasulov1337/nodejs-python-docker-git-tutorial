@@ -144,12 +144,12 @@ brew install python
 
 С официального [сайта](https://www.python.org/downloads/) скачайте необходимую версию Python на Windows
 
-![Сайт Python](image-6.png)
+![Сайт Python](win-py-site.png)
 
 ## Установка Python
 
 Запустите установщик и нажмите `Install Now` после чего Python установится на ваш компьютер.
-![alt text](image-7.png)
+![alt text](win-py-install.png)
 
 Важно: после установки на некоторых системах python будет доступен не по имени `python`, а как `py`.
 
@@ -194,10 +194,10 @@ python -m venv .venv/
 ```
 
 В случае успешного выполнения команды у вас должна появиться надпись `(.venv)`, что означает, что вы находитесь в виртуальной среде.
-![alt text](image-9.png)
+![Powershell успешная активация .venv](win-pwsh-venv-success.png)
 
 У вас могла возникнуть такая ошибка:
-![alt text](image-8.png)
+![Powershell ошибка активации .venv](win-pwsh-venv-error.png)
 Это происходит, потому что по умолчанию скрипты Powershell блокируются для запуска. Механизм этот называется [Execution Policy](https://winrcmd.wordpress.com/2019/01/23/razreshit-powershell-scripty-powershell-execution-policy/). Однако, зачастую необходимо разрешить выполнение скриптов, чтобы, например, иметь возможность выполнять их по расписанию в планировщике заданий.
 
 ### Смена политики выполнения скриптов
