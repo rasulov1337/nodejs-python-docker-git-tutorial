@@ -52,6 +52,12 @@ git --version
 
 # Установка Docker
 
+Мы будем устанавливать не только Docker, но еще и Docker Desktop!
+Docker — это платформа контейнеризации с открытым исходным кодом, разработанная для создания, доставки и запуска приложений в контейнерах.
+Docker Desktop — это приложение, которое предоставляет графический интерфейс для работы с Docker.
+
+То есть Docker Desktop — это удобный интерфейс для Docker, чтобы нам намного меньше приходилось вводить команды для работы с контейнерами в терминале.
+
 ## Linux
 
 ### Удаление конфликтующих пакетов
@@ -64,7 +70,7 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 
 ### Добавление репозитория Docker
 
-Нужно добавить репозитории Docker. Для этого введите в терминале:
+Нужно добавить репозиторий Docker в apt. Для этого введите в терминале:
 
 ```sh
 # Add Docker's official GPG key:
@@ -82,7 +88,7 @@ echo \
 sudo apt-get update
 ```
 
-### Установка
+### Установка Docker & Docker Desktop
 
 Скачайте по [ссылке](https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb) DEB пакет Docker Desktop, в который входит и Docker Engine, и Docker Desktop.
 
@@ -95,6 +101,46 @@ sudo apt install ./docker-desktop-amd64.deb -y
 ```
 
 После установки обязательно перезагрузите компьютер.
+
+### Проверка работоспобности Docker
+
+Чтобы проверить, работает ли Docker, введите в терминале:
+
+```sh
+docker run hello-world
+```
+
+На что Docker должен вывести:
+
+```Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+```
+
+### Ошибка Cannot connect to the Docker daemon
+
+Если у вас возникла ошибка `docker: Cannot connect to the Docker daemon at unix:///home/user/.docker/desktop/docker.sock. Is the docker daemon running?`, то введите следующую команду, чтобы пользователь имел права доступа к демону Docker:
+
+```sh
+sudo usermod -aG docker $USER
+```
 
 ## Windows
 
@@ -115,6 +161,82 @@ sudo apt install ./docker-desktop-amd64.deb -y
 Пропустите шаги, если вы не хотите входить в аккаунт Docker Hub
 ![windows docker skip dialogs](win-docker-skip.png)
 
+### Проверка работоспобности Docker
+
+Чтобы проверить, работает ли Docker, введите в командной строке:
+
+```sh
+docker run hello-world
+```
+
+На что Docker должен вывести:
+
+```Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+```
+
 Установка Docker и Docker Desktop на этом завершена.
 
 ## macOS
+
+### Загрузка установщика
+
+Скачайте с [официального сайта](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module) Docker Desktop под вашу платформу
+![Docker Official Site](mac-docker-site.png)
+
+### Установка
+
+Просто перетащите Docker в папку Applications
+![macOS docker install](mac-docker-install.png)
+
+### Проверка работоспобности Docker
+
+Чтобы проверить, работает ли Docker, введите в терминале:
+
+```sh
+docker run hello-world
+```
+
+На что Docker должен вывести:
+
+```Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+```
+
+На этом установка Docker завершена!
