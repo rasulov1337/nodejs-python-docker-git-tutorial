@@ -24,6 +24,32 @@ sudo apt update && sudo apt install git
 
 ## macOS
 
+Установка будет проходить через Homebrew. Homebrew — это популярный менеджер пакетов для macOS, который упрощает установку программного обеспечения.
+
+### Установка Homebrew
+
+Установите Homebrew, если он еще не установлен. Введите в терминале:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Установка git
+
+После установки Homebrew, введите следующую команду для установки Git:
+
+```sh
+brew install git
+```
+
+### Проверка версии
+
+После установки проверьте версию Git в терминале:
+
+```sh
+git --version
+```
+
 # Установка Docker
 
 ## Linux
