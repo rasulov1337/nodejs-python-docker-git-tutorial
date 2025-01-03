@@ -127,12 +127,12 @@ django
 
 С официального [сайта][python-downloads-site] скачайте необходимую версию Python на Windows
 
-![Сайт Python](win-py-site.png)
+![Сайт Python](assets/win-py-site.png)
 
 ## 1. Установка Python
 
 Запустите установщик и нажмите `Install Now` после чего Python установится на ваш компьютер.
-![Окно установки Python на Windows](win-py-install.png)
+![Окно установки Python на Windows](assets/win-py-install.png)
 
 > [!IMPORTANT]  
 > Важно: после установки на некоторых системах python будет доступен не по имени `python`, а как `py`. Например, чтобы запустить скрипт, надо ввести не `python main.py`, а `py main.py`
@@ -179,10 +179,10 @@ python -m venv .venv/
 
 В случае успешного выполнения команды у вас должна появиться надпись `(.venv)`, что означает, что вы находитесь в виртуальной среде.
 
-![Powershell успешная активация .venv](win-pwsh-venv-success.png)
+![Powershell успешная активация .venv](assets/win-pwsh-venv-success.png)
 
 У вас могла возникнуть такая ошибка:
-![Powershell ошибка активации .venv](win-pwsh-venv-error.png)
+![Powershell ошибка активации .venv](assets/win-pwsh-venv-error.png)
 Это происходит, потому что по умолчанию скрипты Powershell блокируются для запуска. Механизм этот называется [Execution Policy][pwsh-execution-policy]. Однако, зачастую необходимо разрешить выполнение скриптов, чтобы, например, иметь возможность выполнять их по расписанию в планировщике заданий.
 
 ### Смена политики выполнения скриптов

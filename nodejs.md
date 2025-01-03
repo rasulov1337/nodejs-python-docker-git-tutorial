@@ -30,7 +30,7 @@
 sudo apt update && sudo apt upgrade
 ```
 
-![Обновление системы](ubuntu-apt-update.png)
+![Обновление системы](assets/ubuntu-apt-update.png)
 
 ### 2. Установка nvm.
 
@@ -43,7 +43,7 @@ sudo apt update && sudo apt upgrade
 `wget -q -O - https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
 
 После установки у вас должно появиться следующее сообщение:
-![Установка nvm](ubuntu-nvm-wget.png)
+![Установка nvm](assets/ubuntu-nvm-wget.png)
 **После этого обязательно перезапустите терминал!** Это необходимо сделать, чтобы команда nvm была доступна.
 
 ### 3. Установка NodeJS
@@ -51,11 +51,11 @@ sudo apt update && sudo apt upgrade
 И, наконец, установка NodeJS
 Выполните команду `nvm install --lts` для установки последней LTS версии NodeJS. LTS версии дольше поддерживаются разработчиками NodeJS чем обычные версии.
 \*После установки можно посмотреть список всех установленных версий: `nvm list`, где будет одна только что установленная нами версия (начинается с `->`)
-![Установка nvm](linux-node-install.gif)
+![Установка nvm](assets/linux-node-install.gif)
 
 ### 4. Давайте проверим версию node и npm:
 
-![NodeJS установился успешно](ubuntu-node-version.png)
+![NodeJS установился успешно](assets/ubuntu-node-version.png)
 Как видим, NodeJS и npm успешно установлены.
 
 ### 5. Запуск скрипта через Node.js
@@ -88,12 +88,12 @@ Node version manager, чаще называемый nvm, является сам
 
 В первую очередь нужно перейти на [страницу релизов nvm-windows][win-nvm-releases]. На ней нужно скачать nvm-setup.exe
 
-![Страница релизов nvm](win-nvm-github-page.png)
+![Страница релизов nvm](assets/win-nvm-github-page.png)
 
 ### 2. Установка NVM
 
 Установите NVM
-![Install Windows](win-node-install.gif)
+![Install Windows](assets/win-node-install.gif)
 
 ### 3. Установка Node
 
@@ -106,7 +106,7 @@ Node version manager, чаще называемый nvm, является сам
 -   `npm --version` для проверки работоспособности npm
 -   `node --version` для проверки работоспособности node
 
-![Powershell установка nvm](win-pwsh-nvm.png)
+![Powershell установка nvm](assets/win-pwsh-nvm.png)
 
 ### 4. Запуск скрипта через Node.js
 

@@ -13,12 +13,12 @@ sudo apt update && sudo apt install git
 ### Загрузка установщика
 
 Скачайте с [сайта][win-git-download-link] установщик git
-![git windows site](win-git-site.png)
+![git windows site](assets/win-git-site.png)
 
 ### Установка
 
 Установите git. В процессе установки можно оставить все значения по умолчанию.
-![Git windows installer](win-git-installer.png)
+![Git windows installer](assets/win-git-installer.png)
 
 После этого `git` будет успешно установлен.
 
@@ -148,18 +148,18 @@ sudo usermod -aG docker $USER
 
 Скачайте с [официального сайта][docker-site] Docker Desktop
 
-![Docker official site](win-docker-site.png)
+![Docker official site](assets/win-docker-site.png)
 
 Запустите установщик.
 Нажмите `OK`.
-![windows docker installer](win-docker-installer.png)
+![windows docker installer](assets/win-docker-installer.png)
 
 После установки запустите `Docker`
-![windows docker installer finish](win-docker-installer-end.png)
+![windows docker installer finish](assets/win-docker-installer-end.png)
 Выберите пункт `Use recommended settigns`.
 
 Пропустите шаги, если вы не хотите входить в аккаунт Docker Hub
-![windows docker skip dialogs](win-docker-skip.png)
+![windows docker skip dialogs](assets/win-docker-skip.png)
 
 ### Проверка работоспобности Docker
 
@@ -200,12 +200,12 @@ For more examples and ideas, visit:
 ### Загрузка установщика
 
 Скачайте с [официального сайта][docker-site] Docker Desktop под вашу платформу
-![Docker Official Site](mac-docker-site.png)
+![Docker Official Site](assets/mac-docker-site.png)
 
 ### Установка
 
 Просто перетащите Docker в папку Applications
-![macOS docker install](mac-docker-install.png)
+![macOS docker install](assets/mac-docker-install.png)
 
 ### Проверка работоспобности Docker
 
