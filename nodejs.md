@@ -66,7 +66,7 @@ Node version manager, чаще называемый nvm, является сам
 
 Выполните команды:
 
--   `nvm install latest --lts` дял установки последней LTS версии Node
+-   `nvm install latest --lts` для установки последней LTS версии Node
 -   `nvm use xx.xx.xx`, где xx.xx.xx -- последняя версия. В моем случае это 23.5.0. Этой командой мы указываем какую версию NodeJS собираемся использовать
 -   `npm --version` для проверки работоспособности npm
 -   `node --version` для проверки работоспособности node
@@ -75,8 +75,30 @@ Node version manager, чаще называемый nvm, является сам
 
 #### macOS
 
--   для установки node.js на macOS используйте [Homebrew](https://brew.sh)
--   для установки node.js на Windows используйте [nvm](https://learn.microsoft.com/ru-ru/windows/dev-environment/javascript/nodejs-on-windows)
+### Установка Homebrew
+
+Homebrew — это популярный пакетный менеджер для macOS (и Linux), который упрощает установку и управление программным обеспечением. Он позволяет пользователям легко устанавливать, обновлять и удалять программы и библиотеки, используя командную строку.
+
+Установите Homebrew:
+
+```sh
+# Download and install Homebrew
+curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+```
+
+Установите Node.js:
+
+```sh
+brew install node@22
+```
+
+Проверьте, установился ли Node.js и npm:
+
+```sh
+node -v # Должна вывести "v22.12.0".
+
+npm -v # Должна вывести "10.9.0".
+```
 
 ### Npm
 
