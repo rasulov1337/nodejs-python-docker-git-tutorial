@@ -149,7 +149,7 @@ brew install python
 ## Установка Python
 
 Запустите установщик и нажмите `Install Now` после чего Python установится на ваш компьютер.
-![alt text](win-py-install.png)
+![Окно установки Python на Windows](win-py-install.png)
 
 Важно: после установки на некоторых системах python будет доступен не по имени `python`, а как `py`.
 
