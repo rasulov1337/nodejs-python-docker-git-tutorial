@@ -117,3 +117,21 @@ npm -v # Должна вывести "10.9.0".
 [package.json]: https://docs.npmjs.com/cli/v9/configuring-npmpackage-json
 [package-lock.json]: https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json
 [npm]: https://www.npmjs.com
+
+#### Запуск скрипта через Node.js
+
+1. Давайте создадим простой скрипт `hi.js` со следующим содержимым:
+
+```js
+console.log("Hello world!");
+```
+
+2. Теперь запустим этот скрипт:
+
+```sh
+node hi.js
+```
+
+Нам должна вывеститься строка `Hello world!` в консоль.
+
+Итого, `Node.js` успешно установлен
