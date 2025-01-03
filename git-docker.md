@@ -12,7 +12,7 @@ sudo apt update && sudo apt install git
 
 ### Загрузка установщика
 
-Скачайте с [сайта](win-git-download-link) установщик git
+Скачайте с [сайта][win-git-download-link] установщик git
 ![git windows site](win-git-site.png)
 
 ### Установка
@@ -90,7 +90,7 @@ sudo apt-get update
 
 ### Установка Docker & Docker Desktop
 
-Скачайте по [ссылке](ubuntu-docker-binary) DEB пакет Docker Desktop, в который входит и Docker Engine, и Docker Desktop.
+Скачайте по [ссылке][ubuntu-docker-binary] DEB пакет Docker Desktop, в который входит и Docker Engine, и Docker Desktop.
 
 После скачивания откройте терминал, перейдите в "Загрузки" и установите скачанный пакет:
 
@@ -146,7 +146,7 @@ sudo usermod -aG docker $USER
 
 ### Загрузка установщика
 
-Скачайте с [официального сайта](docker-site) Docker Desktop
+Скачайте с [официального сайта][docker-site] Docker Desktop
 
 ![Docker official site](win-docker-site.png)
 
@@ -199,7 +199,7 @@ For more examples and ideas, visit:
 
 ### Загрузка установщика
 
-Скачайте с [официального сайта](docker-site) Docker Desktop под вашу платформу
+Скачайте с [официального сайта][docker-site] Docker Desktop под вашу платформу
 ![Docker Official Site](mac-docker-site.png)
 
 ### Установка
